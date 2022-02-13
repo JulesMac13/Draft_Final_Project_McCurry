@@ -1,4 +1,4 @@
-#Note about requests?
+#import requests - Don't quite understand this aspect just yet
 
 def fetch_data(zip = None, city = None):
     
@@ -17,7 +17,7 @@ def fetch_data(zip = None, city = None):
 
     baseUrl += "&appid=" + str(apiid)
 
-    r = requests.get(baseUrl)
+    r = requests.get(baseUrl) #How does this connect to the import?
 
     return r
 
