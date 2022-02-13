@@ -6,7 +6,7 @@ def fetch_data(zip = None, city = None):
     baseUrl = "http://api.openweathermap.org/data/2.5/weather"
 
     #API ID for the website
-    apiid = "15d4c5a3f9b3c88912845f2aaed85595"
+    apiid = ""
 
     #Checking if input is zipcode or city name
     if zip is not None:
